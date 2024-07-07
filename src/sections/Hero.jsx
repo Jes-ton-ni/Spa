@@ -22,7 +22,7 @@ function Hero() {
       id="home"
       className="relative w-full  flex sm:flex-row  justify-center max-container "
     >
-      <div className="relative max-w-[1400px] h-[780px] w-full py-16 px-4 ">
+      <div className="relative max-w-[1800px] h-[780px] w-full py-16 px-4 ">
         {slides.map((slide, index) => (
           <div
             key={index}
@@ -57,9 +57,9 @@ function Hero() {
           <img width={20} src={right} alt="Next Slide" />
         </div>
 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2  -translate-y-1/2 text-white text-center mx-auto bg-dark rounded-md p-6" style={{opacity: 0.8}}>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2  -translate-y-1/2 text-white text-center mx-auto bg-dark rounded-md p-16" style={{opacity: 0.8}}>
           <h1 className="text-lg max-md:text-sm font-normal  text-light font-palanquin mb-3"> Welcome to</h1>
-          <h1 className="text-[80px] max-md:text-[25px]  max-lg:text-[50px] tracking-[15px]  mb-2   font-light  text-light font-palanquin">Spa-ntaneous</h1>
+          <h1 className="text-[70px] max-md:text-[25px]  max-lg:text-[50px] tracking-[15px]  mb-2   font-light  text-light font-palanquin">Spa-ntaneous</h1>
           <p className="text-lg font-normal max-md:text-[10px] max-lg:text-[10px] text-light font-palanquin">Where relaxation meets adventure!</p>
           <a href='/services'>
           <button className='text-xl mt-9  rounded-md border-light border-2 p-2 bg-dark hover:bg-light-dark duration-500 max-sm: w-auto relative'>Book Now </button>
