@@ -196,9 +196,9 @@ const Nav = () => {
                   <a href="/login"><img src={User}/> </a>
                 </li>
               )}
-              <li className=" bg-white text-black p-2 rounded-full hover:bg-light-dark duration-500 hover:text-light m-2">
+              {/* <li className=" bg-white text-black p-2 rounded-full hover:bg-light-dark duration-500 hover:text-light m-2">
                 <a href="/booking">Reserve now</a>
-              </li>  
+              </li>   */}
             </ul> 
           </nav>
         </div>
